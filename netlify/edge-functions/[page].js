@@ -1,8 +1,5 @@
 import layout from "../../components/layout.js";
 
-// A bit convoluted, but necessary for the moment
-// until we can import the page templates we need
-// dynamically from withing the exported function
 import pageHome from "../../pages/home/index.js";
 import pageHello from "../../pages/hello/index.js";
 import pageTransform from "../../pages/transform/index.js";
