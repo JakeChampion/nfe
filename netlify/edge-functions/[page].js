@@ -66,7 +66,7 @@ export default (request, context) => {
   const url = new URL(request.url);
   const path = context.params?.page || "home";
 
-  console.log(`serve page for ${url} `);
+  console.log(`serve page for ${url}`);
 
   // render the appropriate page with the global layout
   const html = layout({
