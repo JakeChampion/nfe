@@ -1,4 +1,3 @@
-// A global page template for all of our HTML views
 import layout from "../../components/layout.js";
 
 // A bit convoluted, but necessary for the moment
